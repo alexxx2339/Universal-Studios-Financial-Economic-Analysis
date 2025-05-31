@@ -1,0 +1,36 @@
+---
+title: "Universal Studios Attendance Analysis"
+author: "Alejandro Alvarez"
+date: "2025-05-31"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+attendance <- read_csv("data/raw/universal_attendance_clean.csv")
+print(head(attendance))
+## R Markdown
+
+attendance <- attendance %>%
+  mutate(
+    Year = as.integer(Year),
+    `Visitors (millions)` = as.numeric(`Visitors (millions)`)
+  )
+
+```{r}
+summary(attendance)
+```
+
+
+attendance_plot <- ggplot(attendance, aes(x = Year, y = `Visitors (millions)`)) +
+  geom_line(color = "blue", linewidth = 1) +
+  geom_point(color = "red", size = 3) +
+  geom_smooth(method = "lm", se = FALSE, color = "darkgreen", linetype = "dashed") +
+  labs(title = "Universal Studios Attendance with Trend Line",
+       x = "Year", y = "Visitors (millions)") +
+  theme_minimal()
+
+print(attendance_plot)
