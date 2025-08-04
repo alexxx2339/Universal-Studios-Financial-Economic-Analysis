@@ -1,24 +1,23 @@
-# Universal-Studios-Financial-Economic-Analysis
-Financial and economic analysis of Universal Studios theme parks using public data, with visualizations and models.
+# Universal Studios Financial & Economic Analysis
+
+This project explores the financial and economic trends of Universal Studios theme park attendance using publicly available data. It includes time-series visualizations and summary statistics using R.
+
+---
+
+## 🚀 Live Project Report  
+➡️ [View the full attendance analysis online](https://alexxx2339.github.io/Universal-Studios-Financial-Economic-Analysis/)
+
+---
 
 ## 📊 Features
-- Attendance trends from 2017–2023
-- Summary statistics (mean, median, std. dev., etc.)
-- Time-series visualization using `ggplot2`
-- Clean, minimal R Markdown report with embedded plot
+- Attendance data analysis from 2017–2023  
+- Linear trend modeling and visitor projections  
+- Visualizations using `ggplot2`  
+- Clean, reproducible report rendered in HTML
 
-## 🛠 Tools Used
-- R, RStudio
-- `ggplot2`, `dplyr`, `readr`
-- Git & GitHub
+---
 
-## 📁 Files
-- `data/` – Raw attendance dataset
-- `attendance_plot.png` – Visualization output
-- `Universal_Studios_Attendance_Analysis.html` – HTML report (rendered from R Markdown)
-
-## 🔗 View the Report
-▶️ [Click here to view the attendance analysis](Universal_Studios_Attendance_Analysis.html)git ## 📄 Report
-
-View the attendance report here:  
-👉 [Universal Studios Attendance Report](Universal_Studios_Attendance_Analysis.html)
+## 🛠️ Tools Used
+- **R**, **ggplot2**, **dplyr**, **readr**  
+- Git & GitHub  
+- Hosted via **GitHub Pages**
