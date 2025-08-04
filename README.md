@@ -45,29 +45,9 @@ This project leverages public attendance data to analyze trends at Universal Orl
 ├── scripts/
 └── visuals/
 
-yaml
-Copy
-Edit
 
 ---
 
-**Let me know if you'd like to update your LinkedIn post or replicate this format for other projects like the Superstore dashboard!**
-✅ How to Apply the Changes
-Replace the content of your existing README.md with the text above.
-
-Open Git Bash in your project root directory (where README.md and index.html are located).
-
-Run the following commands:
-
-bash
-Copy
-Edit
-git add README.md
-git commit -m "Update README with live report link and refined summary"
-git push origin main
-Once pushed, your GitHub repository will display the cleaned README and prominently feature the live report link on its homepage.
-
-Let me know when it’s live! I’ll help you craft the final LinkedIn post or upload visuals if needed.
 
 
 
