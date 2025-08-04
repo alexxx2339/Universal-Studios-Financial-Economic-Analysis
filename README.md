@@ -12,7 +12,7 @@
 
 
 ## 🚀 Live Project Report  
-➡️ [View the full attendance analysis online](https://alexxx2339.github.io/Universal‑Studios‑Financial‑Economic‑Analysis/)
+➡️ [View the full attendance analysis online](https://alexxx2339.github.io/Universal-Studios-Financial-Economic-Analysis//)
 
 ▶️ [View attendance report (local HTML file)](index.html)
 
